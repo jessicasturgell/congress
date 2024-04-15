@@ -1,15 +1,78 @@
 .pageBody {
-    border-style: dotted;
-    width: 50%;
-    padding: 1%;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding-top: 1%;
+    font-family: sans-serif
 }
 
 .pageHeader {
+    background-color: darkblue;
     font-size: 40px;
-    color:blue;
+    color:lightblue;
     text-align: center;
+    padding: 1%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
 }
 
 .info {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    width: 25%;
+    background-color: lightblue;
+}
+
+.basicInfo {
+    padding: 1%;
+}
+
+h2 {
+    padding-left: 2%;
+    padding-bottom: 0%;
+}
+
+.allCommittees {
+    width: 75%
+}
+
+.committees {
+    background-color: azure;
+    border: 2px solid;
+    border-color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.blurb {
+    margin-top: 1%;
+    font-variant: small-caps;
+    font-size: small;
+    color: darkblue;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: darkblue;
+    color: lightblue;
 }
